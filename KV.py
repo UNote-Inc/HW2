@@ -10,7 +10,7 @@ Command Line
 curl -X GET http://127.0.0.1:5000/get/<key>
 curl -X GET http://127.0.0.1:5000/getall
 
-curl -X POST http://127.0.0.1:5000/<key>/<value>
+curl -X POST http://127.0.0.1:5000/post/<key>/<value>
 
 curl -X PUT http://127.0.0.1:5000/update/<key>/<value>
 
